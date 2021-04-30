@@ -1,0 +1,28 @@
+{
+  "name": "geezscript",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "split.js": "^1.6.3",
+    "jq-console": "^2.13.2",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "postcss": "^8.2.13",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
+  }
+}
