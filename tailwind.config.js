@@ -4,8 +4,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'dracula-dark': '#282A36',
-                'dracula-light': '#3d3f4c',
+                dark: '#1A1A1A',
+                light: '#263338',
+                'dracula-border': '#313131',
+                'geez-yellow': '#EDC63B',
             },
         },
     },

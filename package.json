@@ -7,9 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "split.js": "^1.6.3",
+    "@headlessui/vue": "^1.1.1",
+    "gun": "git+https://github.com/amark/gun.git",
     "jq-console": "^2.13.2",
+    "jquery": "^3.6.0",
+    "skynet-js": "^2.9.0",
+    "splitpanes": "^3.0.4",
     "vue": "^3.0.5",
     "vue-router": "^4.0.6"
   },

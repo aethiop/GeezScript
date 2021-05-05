@@ -1,4 +1,6 @@
 import { reactive } from 'vue'
+import _ from 'lodash'
+
 import {
     parse,
     TokenStream,
@@ -219,12 +221,7 @@ env.def('ብቀ', function (k, cell) {
 env.def('ብጀ!', function (k, cell, car) {
     k((cell.car = car))
 })
-env.def('ሳይን', function (k, cell, car) {
-    k((cell.car = car))
-})
-env.def('ኮስ', function (k, cell, car) {
-    k((cell.car = car))
-})
+
 env.def('ብቀ!', function (k, cell, cdr) {
     k((cell.cdr = cdr))
 })
@@ -340,4 +337,6 @@ const clearConsole = () => {
     state.terminal.Reset()
 }
 
-export default { state, edit, runCode, setTerminal, clearConsole }
+const run = () => runCode(state.code)
+
+export default { state, edit, runCode, setTerminal, clearConsole, run }

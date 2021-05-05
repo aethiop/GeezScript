@@ -1,5 +1,5 @@
 <template lang="pug">
-div(class="w-auto mr-1 h-full bg-dracula-dark rounded-md")
+div(class="w-auto mr-1 h-full bg-light bg-opacity-50 rounded-md")
     div(class="flex flex-row justify-between p-4")
         h1(class="text-white text-center text-lg font-black") ፋይሎች
         div(class="space-x-2")
@@ -14,7 +14,7 @@ div(class="w-auto mr-1 h-full bg-dracula-dark rounded-md")
     div(class="px-4")
         ul
             li 
-                a(class="inline-block px-2 py-1 bg-gray-600 rounded-md w-full", href="#")
+                a(class="inline-block px-2 py-1 bg-dark rounded-md w-full", href="#")
                     button(type="button", class="inline-flex items-center space-x-4 border px-2 py-1 border-transparent rounded-md shadow-2xl text-sm font-medium text-gray-800 transform hover:scale-105 motion-reduce:transform-none focus:outline-none")
                         svg(class="w-5 h-5 stroke-current text-white ", fill="none" viewBox="0 0 24 24", xmlns="http://www.w3.org/2000/svg")
                             title Play

@@ -64,7 +64,7 @@ function TokenStream(input) {
     }
 
     function is_id_start(ch) {
-        return /[\u1200-\u135f\u1369-\u137ca-zA-Z0-9_፦]/u.test(ch)
+        return /[\u1200-\u135f\u1369-\u137ca-zA-Z0-9_]/u.test(ch)
     }
     function is_id(ch) {
         return is_id_start(ch) || '?!-<:>=0123456789'.indexOf(ch) >= 0
