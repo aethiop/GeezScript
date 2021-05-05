@@ -11,6 +11,7 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
+    "vuepress-plugin-google-adsense": "^0.2.1",
     "vuepress-theme-thindark": "^1.0.1",
     "vuepress-theme-yuu": "^3.0.1"
   }

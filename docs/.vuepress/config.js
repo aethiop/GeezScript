@@ -1,5 +1,13 @@
 module.exports = {
     title: 'ግዕዝ',
+    head: [
+        'script',
+        {
+            'data-ad-client': 'ca-pub-602158075121396',
+            async: true,
+            src: 'https://pagead2.googlesyndication.com/js/adsbygoogle.js',
+        },
+    ],
     description: 'An amharic syntax programming language',
     theme: 'yuu',
     themeConfig: {
