@@ -1,5 +1,5 @@
 module.exports = {
-    title: "ግዕዝ / Ge'ez",
+    title: 'ግዕዝ',
     description: 'An amharic syntax programming language',
     theme: 'yuu',
     themeConfig: {

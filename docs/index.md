@@ -2,7 +2,8 @@
 home: true
 heroText: ግዕዝ / Ge'ez
 heroImage: /images/illustration.svg
-tagline: A programming language in Amharic
+tagline: አማርኛ ፕሮግራሚንግ ቋንቋ
+    - Amharic Programming language
 actionText: Get Started
 actionLink: '/guide/'
 features:
@@ -13,5 +14,5 @@ features:
     - title: Online IDE
       details: Geez has an online IDE. Click on 'Editor' to go to the IDE.
 
-footer: MIT Licensed | Copyright © 2021-present Aethiop
+footer: MIT Licensed | Copyright © 2021-present Marda Studio | natnael@marda.studio
 ---
