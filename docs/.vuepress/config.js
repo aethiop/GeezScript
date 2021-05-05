@@ -15,7 +15,7 @@ module.exports = {
             },
             {
                 text: 'Editor',
-                link: 'http://localhost:3001',
+                link: 'https://code.marda.studio',
                 target: '_self',
                 rel: false,
             },
