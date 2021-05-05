@@ -26,15 +26,15 @@ div(class="bg-dark flex flex-col h-screen")
             // Ge'ez Editor && Console
             pane(class="w-96 flex flex-col flex-auto px-1 space-y-1", size="60", min-size="45")
                 splitpanes(horizontal)
-                    pane(ref="codemirror" , min-size="50", size="70")
+                    pane(min-size="50", size="70")
                         editor(:inEnglish="enabled")/
                     
                     // Ge'ez Console
-                    pane(ref="terminal", min-size="7")
+                    pane(min-size="7")
                         console/
 
             // Turtle Canvas
-            pane(id="preview", class="w-auto pl-1 hidden md:block shadow-md", ref="right")
+            pane(id="preview", class="w-auto pl-1 hidden md:block shadow-md")
                 canvas(class="w-full h-full bg-gray-200 rounded-md", id="canvas")
 </template>
 <script setup>
@@ -49,9 +49,7 @@ import editor from '@/editor.js'
 import { ref, onMounted } from 'vue'
 
 const enabled = ref(false)
-const terminal = ref(null)
-const codemirror = ref(null)
-const { state, runCode, clearConsole } = editor
+const { state, run, clearConsole } = editor
 
 // const imgCanvas = ref(null)
 // const turtlecanvas = ref(null)
@@ -62,7 +60,7 @@ const { state, runCode, clearConsole } = editor
 // const left = ref(null)
 // const main = ref(null)
 // const right = ref(null)
-const run = () => runCode(state.code)
+
 // debouncedRun(state.code)
 
 onMounted(() => {
