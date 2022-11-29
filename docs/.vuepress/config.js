@@ -23,7 +23,7 @@ module.exports = {
             },
             {
                 text: 'Editor',
-                link: 'https://code.marda.studio',
+                link: 'https://geez.ariob.studio',
                 target: '_self',
                 rel: false,
             },
